@@ -44,6 +44,8 @@ If you want to use the Dev Server (required for testing Google Sheets), then do 
 
     `$cert = New-SelfSignedCertificate -certstorelocation cert:\localmachine\my -dnsname localhost.quizbowlreader.com -KeyAlgorithm ECDSA_nistP256`
 
+On macOS, you can open npm_start.command to run npm start and open a window in your Chrome browser.
+
 # Contribute
 
 Contributions are welcomed. Please verify that `npm lint` and `npm test` succeed without warnings or failures before submitting a pull request.
